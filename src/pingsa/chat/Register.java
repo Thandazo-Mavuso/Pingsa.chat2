@@ -1,11 +1,10 @@
 package pingsa.chat;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.regex.Pattern;
 
-public class Register {
 
+
+public class Register {
     
     public boolean checkUserName(String username) {
         return username.contains("_") && username.length() <= 5;
